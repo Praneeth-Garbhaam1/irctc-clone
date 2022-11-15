@@ -1,0 +1,85 @@
+video{
+    width: -webkit-fill-available;
+}
+.login{
+    display: grid;
+    justify-content: center;
+    background-color: #213D77;
+    background: linear-gradient(#213D77, #36589cb8);;
+    height: 124vh;
+    padding: 6rem;
+}
+.card{
+    width: fit-content;
+    height: fit-content;
+}
+.card-menu{
+    width: auto;
+    position: absolute;
+    z-index: 1;
+    left: 21rem;
+    top: 10rem;
+}
+.card-menu .card-body{
+    display: flex;
+    flex-direction: row;
+}
+.icons{
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.icons i{
+    font-size: xx-large;
+    padding-left: 10px;
+}
+.card-content{
+    padding-top: 4rem;
+}
+.card-body{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: block;
+}
+.status{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.status-menu .form-check-inline:checked{
+    display: inline-block;
+    margin-right: 1rem;
+    background: aliceblue;
+    margin: 3px;
+    border-radius: 6px;
+}
+.container{
+    margin: 3rem 0rem;
+}
+.container label{
+    display: grid;
+    border: 1px solid deepskyblue;
+    border-radius: 9px;
+    padding: 1rem;
+    width: 100%;
+}
+input[type="text"]{
+    border: 0;
+    font-size: xx-large;
+    font-weight: 900;
+    color: #111;
+    width: inherit;
+}
+button.search{
+    position: absolute;
+    bottom: -1rem;
+    border-radius: 32px;
+    padding: 1rem 4rem;
+    background: #213D77;
+    color: #fff;
+    border: none;
+    left: 45%;
+}
+.card-content .label:hover{
+    background: aliceblue;
+}

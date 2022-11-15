@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --color-primary: #008cff;
+    --color-btn-primary-bg: linear-gradient(93deg,#93b5f7,#213D77);
+    --color-btn-primary-text: #fff;
+    --color-btn: #008cff;
+    --btn-border-radius: 4px;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
